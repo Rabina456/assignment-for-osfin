@@ -87,8 +87,10 @@ const Login = () => {
                         </div>
                     </div>
                     
-
+                    <div className='flex '>
                     <button className="w-[360px] h-[40px] rounded-[6px] px-[24px] py-[10px] bg-[#2D2D2D] text-white " onClick={()=>handleLogin(true)}>Login</button>
+                    </div>
+                    
                     </div>
                     <div className="flex mx-auto justify-center items-center w-[239px] h-[20px] gap-2">
                         <div className="font-sans m-0 p-0 font-normal text-[12px] leading-[20px] tracking-[0.3px] w-[139px] h-[20px] text-[#1A1A1A]">Continue without login?</div>
